@@ -10,10 +10,10 @@ variable "athena_results_bucket_name" {
 
 variable "athena_role" {
     type    = string
-    default = "arn:aws:iam::278862850009:user/lake-formation-admin-user"
+    default = "arn:aws:iam::XXXX:user/lake-formation-admin-user"
 }
 
 variable "gitlab_ci_role" {
     type    = string
-    default = "arn:aws:iam::278862850009:user/gitlab_ci_user"
+    default = "arn:aws:iam::XXXX:user/gitlab_ci_user"
 }
