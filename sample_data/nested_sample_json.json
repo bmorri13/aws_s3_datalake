@@ -1,0 +1,12 @@
+{"event_id": "10", "timestamp": "2024-04-10T12:45:00Z", "event_type": "logout",, "message": "this a message", "details": {"user_id": "125", "username": "user_two"}}
+{"event_id": "1", "timestamp": "2024-04-10T12:00:00Z", "event_type": "login", "details": {"user_id": "123", "username": "user_one", "location": {"city": "New York", "country": "USA"}}}
+{"event_id": "2", "timestamp": "2024-04-10T12:05:00Z", "event_type": "purchase", "details": {"user_id": "124", "product_id": "987", "quantity": 2, "price": {"amount": 39.99, "currency": "USD"}}}
+{"event_id": "3", "timestamp": "2024-04-10T12:10:00Z", "event_type": "login", "details": {"user_id": "125", "username": "user_two", "location": {"city": "London", "country": "UK"}}}
+{"event_id": "4", "timestamp": "2024-04-10T12:15:00Z", "event_type": "logout", "details": {"user_id": "123", "username": "user_one"}}
+{"event_id": "5", "timestamp": "2024-04-10T12:20:00Z", "event_type": "view", "details": {"user_id": "126", "page_id": "555", "section": "news"}}
+{"event_id": "5", "timestamp": "2024-04-10T12:20:00Z", "event_type": "view", "details": {"user_id": "126", "page_id": "555", "section": "news"}}
+{"event_id": "6", "timestamp": "2024-04-10T12:25:00Z", "event_type": "error", "details": {"error_code": "404", "message": "Not Found", "context": {"user_id": "127", "attempted_path": "/undefined-route"}}}
+{"event_id": "7", "timestamp": "2024-04-10T12:30:00Z", "event_type": "update_profile", "details": {"user_id": "128", "changes": {"email": "new_email@example.com", "phone": "+1234567890"}}}
+{"event_id": "8", "timestamp": "2024-04-10T12:35:00Z", "event_type": "login", "details": {"user_id": "129", "username": "user_three", "location": {"city": "Tokyo", "country": "Japan"}}}
+{"event_id": "9", "timestamp": "2024-04-10T12:40:00Z", "event_type": "comment", "details": {"user_id": "130", "post_id": "321", "text": "Really interesting article!"}}
+{"event_id": "10", "timestamp": "2024-04-10T12:45:00Z", "event_type": "logout", "details": {"user_id": "125", "username": "user_two"}}
